@@ -56,6 +56,7 @@
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Distribution|x64' ">
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Scripts\Example.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Teefies Install\BellyRub-ScriptCore\BellyRub-ScriptCore.csproj">
