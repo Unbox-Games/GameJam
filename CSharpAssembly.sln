@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAssembly", "CSharpAssembly.csproj", "{8689EC1C-7257-E022-5BEB-50494758BC87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BellyRub", "BellyRub", "{0DECCADC-F9B9-BEE2-E24D-2F09CEBA9A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellyRub-ScriptCore", "..\..\Teefies Install\BellyRub-ScriptCore\BellyRub-ScriptCore.csproj", "{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Distribution|x64 = Distribution|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8689EC1C-7257-E022-5BEB-50494758BC87}.Debug|x64.ActiveCfg = Debug|x64
+		{8689EC1C-7257-E022-5BEB-50494758BC87}.Debug|x64.Build.0 = Debug|x64
+		{8689EC1C-7257-E022-5BEB-50494758BC87}.Distribution|x64.ActiveCfg = Distribution|x64
+		{8689EC1C-7257-E022-5BEB-50494758BC87}.Distribution|x64.Build.0 = Distribution|x64
+		{8689EC1C-7257-E022-5BEB-50494758BC87}.Release|x64.ActiveCfg = Release|x64
+		{8689EC1C-7257-E022-5BEB-50494758BC87}.Release|x64.Build.0 = Release|x64
+		{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}.Debug|x64.ActiveCfg = Debug|x64
+		{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}.Debug|x64.Build.0 = Debug|x64
+		{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}.Distribution|x64.ActiveCfg = Distribution|x64
+		{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}.Distribution|x64.Build.0 = Distribution|x64
+		{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}.Release|x64.ActiveCfg = Release|x64
+		{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{514B49A2-BDAC-26B0-461A-6D62B27A5D6F} = {0DECCADC-F9B9-BEE2-E24D-2F09CEBA9A47}
+	EndGlobalSection
+EndGlobal
