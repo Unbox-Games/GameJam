@@ -28,8 +28,8 @@ shapeshift - guards notice entity missing - alarm animation
 
 
 -- Lachie ToDo:
-> Create a Tutorial Scene.
-> Create a Tutorial TileMap Level.
+> Create a Tutorial Scene.                                                          (Done)
+> Create a Tutorial TileMap Level.                                                  (Done)
 > Place static Colliders in Scene to make sure the level can't be clipped through.
 > Make a Door Object that will open when a Entity passes through it.
     > Door Structure:
@@ -47,6 +47,7 @@ shapeshift - guards notice entity missing - alarm animation
         > Door Visual
             | Contains |
             Sprite Component for Door Visual.
+
             
 > Door Handler that controls all objects associated with the door, ie changing the sprite to be open or closed, 
     collider on the actual door to enable or disable dependant on if its open or not.
