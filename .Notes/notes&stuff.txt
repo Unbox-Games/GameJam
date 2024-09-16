@@ -5,6 +5,28 @@ shapeshift - guards notice entity missing - alarm animation
 ...
 
 
+--- Level Design ---
+
+- Normal blocks
+- Warning blocks
+- Electrified blocks ???
+
+- Grates
+- Lasers
+- Cameras (RAYCASTS HAVE A USE LETS GOOOO)
+
+- Doors
+- Exit door
+
+--- Props ---
+
+- Cardboard Box 
+    - Open/Closed
+- Rubbish Bin
+    - Lid/No Lid ???
+- 
+
+
 -- Lachie ToDo:
 > Create a Tutorial Scene.
 > Create a Tutorial TileMap Level.
