@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAssembly", "CSharpAss
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BellyRub", "BellyRub", "{0DECCADC-F9B9-BEE2-E24D-2F09CEBA9A47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellyRub-ScriptCore", "..\..\..\BellyRub Engine\Teefies Install\BellyRub-ScriptCore\BellyRub-ScriptCore.csproj", "{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellyRub-ScriptCore", "..\..\Teefies Install\BellyRub-ScriptCore\BellyRub-ScriptCore.csproj", "{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

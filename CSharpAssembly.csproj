@@ -18,7 +18,7 @@
     <DebugType>portable</DebugType>
     <DebugSymbols>true</DebugSymbols>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\BellyRub Engine\Teefies Install\</OutputPath>
+    <OutputPath>..\..\Teefies Install\</OutputPath>
     <BaseIntermediateOutputPath>\Engine_Data\Binaries-Intermediate\Debug\CSharpAssembly\</BaseIntermediateOutputPath>
     <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
     <DefineConstants></DefineConstants>
@@ -30,7 +30,7 @@
     <DebugType>portable</DebugType>
     <DebugSymbols>true</DebugSymbols>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\BellyRub Engine\Teefies Install\</OutputPath>
+    <OutputPath>..\..\Teefies Install\</OutputPath>
     <BaseIntermediateOutputPath>\Engine_Data\Binaries-Intermediate\Release\CSharpAssembly\</BaseIntermediateOutputPath>
     <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
     <DefineConstants></DefineConstants>
@@ -42,7 +42,7 @@
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\BellyRub Engine\Teefies Install\</OutputPath>
+    <OutputPath>..\..\Teefies Install\</OutputPath>
     <BaseIntermediateOutputPath>\Engine_Data\Binaries-Intermediate\Distribution\CSharpAssembly\</BaseIntermediateOutputPath>
     <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
     <DefineConstants></DefineConstants>
@@ -56,17 +56,14 @@
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Distribution|x64' ">
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
     <Compile Include="Data\Scripts\DoorController.cs" />
-=======
     <Compile Include="Data\Scripts\Enemy_Controller.cs" />
->>>>>>> Stashed changes
     <Compile Include="Data\Scripts\Example.cs" />
     <Compile Include="Data\Scripts\Platformer_PlayerController.cs" />
     <Compile Include="Data\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\BellyRub Engine\Teefies Install\BellyRub-ScriptCore\BellyRub-ScriptCore.csproj">
+    <ProjectReference Include="..\..\Teefies Install\BellyRub-ScriptCore\BellyRub-ScriptCore.csproj">
       <Project>{514B49A2-BDAC-26B0-461A-6D62B27A5D6F}</Project>
       <Name>BellyRub-ScriptCore</Name>
     </ProjectReference>
