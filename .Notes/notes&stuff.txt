@@ -1,2 +1,40 @@
-hi
+--- Game Loop ---
+start
+guards start roaming
+shapeshift - guards notice entity missing - alarm animation
+...
 
+
+-- Lachie ToDo:
+> Create a Tutorial Scene.
+> Create a Tutorial TileMap Level.
+> Place static Colliders in Scene to make sure the level can't be clipped through.
+> Make a Door Object that will open when a Entity passes through it.
+    > Door Structure:
+    
+    | Entities |
+    > Door Sensor
+        | Contains |
+        Static Trigger Box that we can see what is near the door.
+        Script that is called Door Handler.
+    > Door
+        | Contains |
+        Static Box Collider that will be interacted with.
+        
+        | Children |
+        > Door Visual
+            | Contains |
+            Sprite Component for Door Visual.
+            
+> Door Handler that controls all objects associated with the door, ie changing the sprite to be open or closed, 
+    collider on the actual door to enable or disable dependant on if its open or not.
+
+For door testing use the Player v1.0 Prefab.
+
+-- Deklyn ToDo:
+> Get Walk and idle Player Animations in.
+> Get them to change based on player state.
+> Work on a cardboard box sprite.
+> Create a cardboard box sprite.
+> Create a morph animation for cardboard box.
+> Create a animation for returning to natural state.
