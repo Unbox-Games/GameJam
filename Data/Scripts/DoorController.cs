@@ -3,9 +3,9 @@ using BellyRub;
 
 namespace CSharpAssembly
 {
-	public class DoorController : ScriptController
+	public class DoorController: ScriptController
 	{
-		public Entity m_DoorEntity                               = null;
+		public  Entity m_DoorEntity                               = null;
 		private SpriteComponent m_SpriteComponent                 = null;
 		private SpriteAnimatorComponent m_SpriteAnimatorComponent = null;
 
@@ -25,7 +25,8 @@ namespace CSharpAssembly
 		{
 			//play openning animation
 			m_SpriteAnimatorComponent.SetCurrentAnimation(1);
-			//diable collider
+
+			//disable collider
 			
 		}
 		
@@ -33,6 +34,7 @@ namespace CSharpAssembly
 		{
 			//play closing animation, (open in reverse)
 			m_SpriteAnimatorComponent.SetCurrentAnimation(0);
+
 			//enable collider
 		}
 	}
