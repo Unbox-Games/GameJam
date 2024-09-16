@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Data\Scripts\Example.cs" />
     <Compile Include="Data\Scripts\Platformer_PlayerController.cs" />
-    <Compile Include="Data\Scripts\Player_Controller.cs" />
+    <Compile Include="Data\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Teefies Install\BellyRub-ScriptCore\BellyRub-ScriptCore.csproj">
