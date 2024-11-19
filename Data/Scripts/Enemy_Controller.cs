@@ -7,12 +7,14 @@ namespace CSharpAssembly
 	{
 		private Rigidbody2DComponent rigidCompo = null;
 		private PlayerController2DComponent enemyController = null;
-
+		private SpriteAnimatorComponent enemyAni = null;
 		private SpriteComponent sprite = null;
 
 		public int maxWanderingDist = 0;
 		public bool movingRight = true;
 		public bool isMoving = false;
+
+		public float velocityOffset = 0.05f;
 
 		public Vector2 targetLocation = Vector2.Zero;
 		public Vector2 lastLocation = Vector2.Zero;
@@ -24,12 +26,16 @@ namespace CSharpAssembly
 			rigidCompo = GetComponent<Rigidbody2DComponent>();
 			enemyController = GetComponent<PlayerController2DComponent>();
 			sprite = entity.GetChild(0).GetComponent<SpriteComponent>();
+			enemyAni = entity.GetChild(0).GetComponent<SpriteAnimatorComponent>();
+
 			pivotXPos = transform.position.x; //Grab the spawn location of the enemy that is should wander between.
 		}
 
 		void Update()
 		{
+			Vector2 velocity = rigidCompo.velocity;
 			PassiveState(pivotXPos, ref movingRight);
+			Animate(velocity);
 		}
 
 		void PassiveState(float initialXPos, ref bool moveRight)
@@ -51,8 +57,18 @@ namespace CSharpAssembly
 			{
 				dir = -Vector2.Right;
 			}
-
 			enemyController.Move(dir);
+		}
+
+		void Animate(Vector2 velocity)
+		{
+			if(enemyAni == null)
+			{
+				Debug.LogError($"We have lost the handle to {enemyAni}! Needs to be investigated..");
+				return;
+			}
+
+			enemyAni.SetCurrentAnimation(1);
 		}
 
 	}
